@@ -124,6 +124,20 @@
 		},
 		{
 			"name": "Request-Person1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ec3c05e0-9f87-4214-b5fa-069664ec20d9",
+						"exec": [
+							"pm.test(\"Status code is 404\", () => {",
+							"  pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "88452903-fff4-44a3-b676-e281f3d26d2a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -132,7 +146,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "{{url}}/api/users/12121111000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"12121111000"
+					]
 				}
 			},
 			"response": []
