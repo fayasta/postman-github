@@ -84,6 +84,29 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Adicional",
+			"id": "e892db77-4629-449e-8b28-4bf8ba3b09b7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/users/999999",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"999999"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
