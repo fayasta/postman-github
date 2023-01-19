@@ -121,6 +121,43 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "RequestPerson2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c7389b27-131c-4ad7-821b-d3ed2efc05bf",
+						"exec": [
+							"pm.test(\"Status code is 404\", () => {",
+							"  pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "6f5726a7-eeaf-471d-9ea2-7aed98f290f1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/users/331232323",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"331232323"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
