@@ -109,14 +109,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/users/333",
+					"raw": "{{url}}/api/users/3333",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"api",
 						"users",
-						"333"
+						"3333"
 					]
 				}
 			},
