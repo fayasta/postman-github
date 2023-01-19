@@ -158,6 +158,43 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request - latest-person1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7117d1ed-04fd-4bf9-ae47-dbd40d725768",
+						"exec": [
+							"pm.test(\"Status code is 404\", () => {",
+							"  pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "0957efad-bc13-4fea-b1d2-a5988674d3c6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/users/6666",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"6666"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
