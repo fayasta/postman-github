@@ -84,25 +84,7 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://reqres.in/api/users?page=33",
-					"protocol": "https",
-					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "33"
-						}
-					]
-				}
+				"header": []
 			},
 			"response": []
 		}
