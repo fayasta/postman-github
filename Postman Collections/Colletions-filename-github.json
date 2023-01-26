@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "2765588c-2efe-44a2-a009-edd734ac28c4",
-		"name": "Collection-For-CI",
+		"name": "Collection-For-CI-Local2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -21,7 +21,7 @@
 					}
 				}
 			],
-			"_postman_id": "c7edd915-7d79-4791-bb0b-5b0eecb892ac",
+			"id": "c7edd915-7d79-4791-bb0b-5b0eecb892ac",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -65,7 +65,7 @@
 					}
 				}
 			],
-			"_postman_id": "63f69f32-f971-415d-9393-5b735cbfaab5",
+			"id": "63f69f32-f971-415d-9393-5b735cbfaab5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
