@@ -107,7 +107,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "BackUp2-New",
 			"id": "f26e63d3-407b-4159-bc0e-7f6730d500e6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
