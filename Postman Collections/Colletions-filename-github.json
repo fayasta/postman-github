@@ -75,6 +75,18 @@
 				"url": "https://reqres.in/api/users/23"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "fbb5278a-7ddc-4951-91a8-024af09cee83",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
